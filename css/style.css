@@ -10,9 +10,8 @@ body{
 }
 
 .container{
-    width: 1200px;
+    width: 960px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 header{
@@ -32,10 +31,34 @@ header h1{
 
 .container .row{
     width: 100%;
+    padding-top: 40px;
 }
 
 .row .col{
     float: left;
-    border: 1px solid red;
     width: calc(100%/3);
 }
+
+.row .col img{
+    height: 80px;
+    float: left;
+}
+
+.col .col-items{
+    background-color: black;
+    float: left;
+    padding: 10px;
+    color: white;
+    width: calc(100% - 80px);
+    height: 80px;
+}
+
+.row .col:nth-child(1){
+    padding-right: 30px;
+}
+
+.row .col:nth-child(2){
+    padding-right: 30px;
+}
+
+
