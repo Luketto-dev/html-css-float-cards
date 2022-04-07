@@ -23,3 +23,19 @@ header h1{
     color: rgb(212, 71, 104);
     padding: 20px 20px 35px 20px;
 }
+
+.clearfix{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.container .row{
+    width: 100%;
+}
+
+.row .col{
+    float: left;
+    border: 1px solid red;
+    width: calc(100%/3);
+}
